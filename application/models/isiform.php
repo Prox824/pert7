@@ -1,8 +1,8 @@
 <?php
-class model_latihan1 extends CI_Model
+class isiform extends CI_Model
 {
     //Variabel Menampung Nilai
-    public $nilai1, $nilai2, $hasil;
+    public $nama, $nim, $kelas;
     //Metode Penjumlahan
     public function jumlah($nilai1 = null, $nilai2 = null)
     {
